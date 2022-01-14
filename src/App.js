@@ -11,6 +11,13 @@ export default function App() {
     outputArr.push(newArr[i]);
   }
   console.log('outputArr->' + outputArr);
+/*
+  var whileArr = [];
+  while(newArr.length) {
+    whileArr.push(newArr.pop());
+  }
+  console.log('whileArr->' + whileArr);
+*/
   return (
     <div>
       <h1>Hello StackBlitz!</h1>
