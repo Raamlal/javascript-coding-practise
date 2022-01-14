@@ -13,15 +13,14 @@ export default function App() {
   console.log('outputArr->' + outputArr);
 
   var whileArr = [];
-  while(newArr.length) {
+  while (newArr.length) {
     whileArr.push(newArr.pop());
   }
   console.log('whileArr->' + whileArr);
 
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>Number Reverse without reverse method</h1>
     </div>
   );
 }
