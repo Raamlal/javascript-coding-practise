@@ -70,7 +70,8 @@ export default function App() {
   console.log('Map,Filter,Reduce->' + totalJediScore);
   return (
     <div>
-      <h1>Number Reverse without reverse method</h1>
+      <h4>Number Reverse without reverse method</h4>
+      <h3>Map,Filter,Reduce</h3>
     </div>
   );
 }
