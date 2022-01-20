@@ -17,6 +17,8 @@ export default function App() {
     whileArr.push(newArr.pop());
   }
   console.log('Filter whileArr->' + whileArr);
+
+  /* Map, Reduce, Filter */
   let arr = [1, 2, 3, 4, 5].reduce(function (acc, current) {
     return acc + current;
   }, 0);
